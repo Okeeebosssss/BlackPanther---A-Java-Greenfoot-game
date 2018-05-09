@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=IBlackPantherState
+comment0.text=\n\ Write\ a\ description\ of\ class\ BlackPantherState\ here.\n\ \n\ @author\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=void\ setState()
+comment2.params=
+comment2.target=void\ display()
+numComments=3

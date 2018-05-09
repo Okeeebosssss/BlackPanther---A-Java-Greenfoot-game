@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=HealthScore
+comment0.text=\n\ Write\ a\ description\ of\ class\ HealthScore\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=HealthScore()
+comment10.params=h
+comment10.target=void\ setHealth(int)
+comment11.params=sw
+comment11.target=void\ setSword(int)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ showHealth()
+comment4.params=healthpoints
+comment4.target=void\ addHealthScore(int)
+comment5.params=swordpoints
+comment5.target=void\ addSwordScore(int)
+comment6.params=sub
+comment6.target=void\ attach(ISubject)
+comment7.params=s
+comment7.target=void\ detach(ISubject)
+comment8.params=
+comment8.target=int\ getHealth()
+comment9.params=
+comment9.target=int\ getSword()
+numComments=12

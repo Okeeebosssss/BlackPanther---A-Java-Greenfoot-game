@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Level0
+comment0.text=\n\ Write\ a\ description\ of\ class\ MyWorld\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=Level0()
+comment2.params=
+comment2.target=void\ act()
+comment3.params=position
+comment3.target=void\ paint(int)
+comment4.params=
+comment4.target=void\ createEnemy()
+comment4.text=\n\ \ \ \ \ public\ void\ createFire()\n\ \ \ \ {\n\ \ \ \ \ \ \ \ FireFactory\ theFireFactory\ \=\ new\ FireFactory();\n\ \ \ \ \ \ \ \ Enemy\ theEnemy\ \=\ null;\ \ \ \ \ \ \ \n\ \ \ \ \ \ \ \ int\ category\ \=\ Greenfoot.getRandomNumber(3);\n\ \ \ \ \ \ \ \n\ \ \ \ \ \ \ \ \ \ \ theEnemy\ \=\ theFireFactory.EnemyCategory(category);\ \ \ \ \ \ \ \ \ \ \ \n\ \ \ \ \ \ \ \ \ \ \ addObject(theEnemy,\ getWidth(),\ Greenfoot.getRandomNumber(600));\n\ \ \ \ \ \ \ \ \ \ \ enemyobjectCount++;\n\ \ \ \ \ \ \ }\ \n\ \ \ \ \n\ \ \ \ public\ void\ createGem()\n\ \ \ \ {\n\ \ \ \ \ \ \ \ GemFactory\ theGemFactory\ \=\ new\ GemFactory();\n\ \ \ \ \ \ \ \ Enemy\ theEnemy2\ \=\ null;\ \ \ \ \ \ \ \n\ \ \ \ \ \ \ \ int\ category\ \=\ Greenfoot.getRandomNumber(3);if(category\ >\=\ 0)\n\ \ \ \ \ \ \ {\n\ \ \ \ \ \ \ \ \ \ \ theEnemy2\ \=\ theEnemyFactory.EnemyCategory(category);\ \ \ \ \ \ \ \ \ \ \ \n\ \ \ \ \ \ \ \ \ \ \ addObject(theEnemy,\ getWidth(),\ Greenfoot.getRandomNumber(600));\n\ \ \ \ \ \ \ \ \ \ \ enemyobjectCount++;\n\ \ \ \ \ \ \ }\ \ \ \ \n
+numComments=5

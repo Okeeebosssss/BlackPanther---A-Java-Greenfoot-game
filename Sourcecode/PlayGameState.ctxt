@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=PlayGameState
+comment0.text=\n\ Write\ a\ description\ of\ class\ HasPowers\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=tchalla
+comment1.target=PlayGameState(TChalla)
+comment2.params=
+comment2.target=boolean\ isAlive()
+comment3.params=
+comment3.target=boolean\ isDead()
+comment4.params=
+comment4.target=void\ setState()
+comment5.params=
+comment5.target=void\ display()
+numComments=6
